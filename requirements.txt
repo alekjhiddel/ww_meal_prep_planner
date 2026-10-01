@@ -1,0 +1,5 @@
+# Flet: pinned to the API window this app is written for (ft.Colors/ft.Icons
+# exist from 0.25; Tab(text=...) and page.open() unchanged through 0.28).
+# Flet 1.x (0.70+) renamed Tabs/Tab APIs and would crash at startup.
+flet>=0.25,<0.29
+numpy>=1.24.0
